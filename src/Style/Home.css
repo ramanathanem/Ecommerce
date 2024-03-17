@@ -1,0 +1,50 @@
+.forms-group{
+    width: 500px;
+    height: 60px;
+    position: relative;
+    background: red;
+    margin-left: 33%;
+   margin-top: 20px;
+}
+
+.forms-group input{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+.forms-group .input:focus{
+    border: 2px solid orangered;
+}
+
+.forms-group .btns{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 100%;
+    cursor: pointer;
+    border: none;
+    background-color: orangered;
+    font-size: 20px;
+    color: white;
+}
+.forms-group .btns:hover{
+    background-color: rgba(248,82,21);
+}
+.btn1 .input{
+    padding-right: 80px;
+}
+.row{
+    --bs-gutter-x: 1.8rem;
+}
